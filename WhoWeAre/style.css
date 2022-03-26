@@ -1,0 +1,90 @@
+
+body{
+    user-select: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#img{
+    margin-top: 100px;
+    border-radius: 10px;
+    width: 350px;
+    height: 130px;
+}
+
+.para{
+    padding: 3px;
+    margin-top: 30px;
+}
+
+.box{
+    width: 337px;
+    height: 160px;
+    margin-top: 50px;
+    border-radius: 12px;
+    box-shadow: 1px 5px 9px 5px rgba(0, 0, 0, 0.103);
+    text-align: left; 
+    margin-bottom: 70px;
+    overflow: hidden;
+    background-color:  #251e3e;
+    color: white;
+}
+.para2{
+    padding: 3px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.box2{
+    width: 337px;
+    height: 160px;
+    margin-top: 50px;
+    border-radius: 12px;
+    box-shadow: 1px 5px 9px 5px rgba(0, 0, 0, 0.103);
+    text-align: left; 
+    margin-bottom: 70px;
+    overflow: hidden;
+    background-color:  #451e3e;
+    color: white;
+    font-size: 40px;
+}
+
+.para3{
+    padding: 3px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.box3{
+    width: 337px;
+    height: 160px;
+    margin-top: 50px;
+    border-radius: 12px;
+    box-shadow: 1px 5px 9px 5px rgba(0, 0, 0, 0.103);
+    text-align: left; 
+    margin-bottom: 70px;
+    overflow: hidden;
+    background-color:  #651e3e;
+    color: white;
+    font-size: 30px;
+}
+
+.para4{
+    padding: 3px;
+    margin-top: 30px;
+    margin-left: 2px;
+    align-items: center;
+    text-align: justify;
+}
+
+.box4{
+    width: 337px;
+    height: 1000px;
+    margin-top: 50px;
+    border-radius: 12px;
+    box-shadow: 1px 5px 9px 5px rgba(0, 0, 0, 0.103);
+    text-align: left; 
+    margin-bottom: 70px;
+    overflow: hidden;
+    background-color: #851e3e;
+    color: white;
+    font-size: 20px;
+}
