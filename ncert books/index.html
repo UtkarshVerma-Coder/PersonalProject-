@@ -16,25 +16,41 @@
 
 
 
+
+
+        
 <div class="box">
   
-  <button onclick="class10()" class="sel" id="class10" > CLASS 10</button>
-  <button class="sel" id="class9"> CLASS 9</button>
+  <button style="width: 150px; font-size: 25px; margin-left: 9px;" onclick="class10()" class="sel" id="class10" > CLASS 10</button>
+  <button style="width: 150px; font-size: 25px;" class="sel" id="class9"> CLASS 9</button>
 
-   <form id="10sunject" >
+
+
+
+
+
+
+
+
+<!-- TO SELECT SUBJECTS   -->
+   <form >
        <select id="selectclass">
-          <option value="None"> MATHS</option>
-          <option value="None"> SCIENCE</option>
-          <option value="None"> ENGLISH</option>
-
+          <option> Select Subject</option>
+          <option id="maths" value="1"> MATHS</option>
+          <option value="2"> SCIENCE</option>
+          <option value="3"> ENGLISH</option>
        </select>
    </form>
-    
+    <button id="download"> VIEW PDF </button>
 </div>
 
 
-
      </center>
+
+
+
+
+
 
 <script>
     if ('serviceworker' in navigator) {
@@ -42,6 +58,9 @@
         
     }
 </script>
+
+
+
 
 </body>
 </html>

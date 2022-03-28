@@ -6,3 +6,5 @@ function class10() {
     document.getElementById("class9").style.display = 'none'; 
 }
 // Hiding and Showing property of class 10
+
+
