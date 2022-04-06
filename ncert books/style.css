@@ -14,33 +14,8 @@ body{
 }
 
 
-.box{
-    margin-top: 150px;
-    width: 337px;
-    height: 400px;
-    border-radius: 12px;
-    box-shadow: 1px 5px 9px 5px rgba(0, 0, 0, 0.048);
-    text-align: left; 
-    margin-bottom: 70px;
-    overflow: hidden;
-}
 
-/* SELECT CLASS  */
-#selectclass{
-    border-width: 0ch;
-    margin-left: 42px;
-    margin-top: 100px;
-    font-size: larger;
-    width: 250px;
-    height: 50px;
-    border-radius: 6px;
-    /* background-color: aliceblue; */
-    box-shadow: 1px 5px 9px 5px rgba(0, 0, 0, 0.048);
-    display: none;
-    
-}
 
-/* SELECT CLASS  */
 
 
 
@@ -48,14 +23,32 @@ body{
 /* DOWNLOAD BUTTON */
 
 
-#download{
-    font-size: 20px;
-    margin-left: 108px;
-    margin-top: 50px;
-    border-radius: 5px;
-    border-width: 0ch;
-    background-color: #357ec7;
-    color: white;
-    height: 50px;
+
+
+
+
+
+
+
+
+
+/* CLASS  10 SUBJECTS*/
+#SUB10{
+    height: 90px;
+    width: 350px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 1px 5px 9px 5px rgba(0, 0, 0, 0.048);
+    color: #357ec7;
+    margin-top: 50PX;
+    padding-top: 7PX;
+    font-size: 30px;
+    padding-top: 50px;
+}
+
+#SUB10VISIBLE{
     display: none;
 }
+
+
+

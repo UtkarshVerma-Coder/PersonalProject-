@@ -19,9 +19,47 @@
 
 
         
-<div class="box">
+<!-- <div class="box"> -->
   
-  <button style="width: 150px; font-size: 25px; margin-left: 9px;" onclick="class10()" class="sel" id="class10" > CLASS 10</button>
+  <button style="width: 150px; font-size: 25px; margin-left: 9px;" onclick="HD()" class="sel" id="class10" > CLASS 10</button>
+
+<!-- CLASS 10 SUBJECTS -->
+
+
+<div id="SUB10VISIBLE">
+    
+<h1 id="SUB10" onclick="math()"> MATHS </h1> 
+<table id="chap">
+    <td> CHAPTER 1</td>
+    <td> CHAPTER 2</td>
+    <td> CHAPTER 3</td>
+    <td> CHAPTER 4</td>
+    <td> CHAPTER 5</td>
+    <td> CHAPTER 6</td>
+    <td> CHAPTER 7</td>
+    <td> CHAPTER 8</td>
+    <td> CHAPTER 9</td>
+
+</table>
+
+
+    <h1 id="SUB10"> SCIENCE </h1> 
+    <h1 id="SUB10"> COMPUTER </h1> 
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
   <button style="width: 150px; font-size: 25px;" class="sel" id="class9"> CLASS 9</button>
 
 
@@ -32,16 +70,7 @@
 
 
 
-<!-- TO SELECT SUBJECTS   -->
-   <form >
-       <select id="selectclass">
-          <option> Select Subject</option>
-          <option id="maths" value="1"> MATHS</option>
-          <option value="2"> SCIENCE</option>
-          <option value="3"> ENGLISH</option>
-       </select>
-   </form>
-    <button id="download"> VIEW PDF </button>
+  
 </div>
 
 
@@ -52,12 +81,6 @@
 
 
 
-<script>
-    if ('serviceworker' in navigator) {
-        navigator.serviceWorker.register('service-worker.js')
-        
-    }
-</script>
 
 
 
